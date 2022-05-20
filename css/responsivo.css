@@ -1,0 +1,42 @@
+/* Area de responsividade do site. */
+/* Eu utilizei apenas uma media querie, pois o site já é dinâmico por si só e se adapta tranquilamente aos dispositivos móveis. */
+
+
+@media screen and (max-width: 1005px){
+    .menu{
+        display: none;
+    }
+    .navbar{
+        position: relative;
+    }
+
+    .logo{
+        margin: 0;
+        text-align: center;
+    }
+
+    .header{
+        padding-top: 50px;
+        display: block;
+    }
+
+    .headline{
+        margin: 5%;
+        text-align: center;
+    }
+
+    .headline p{
+        text-align: center;
+    }
+
+    .img-headline{
+        max-width: 80%;
+        margin: 5%;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .card{
+        width: 100%;
+    }
+}
