@@ -26,12 +26,14 @@ body{
     margin-left: 10%;
     /* border: 1px solid red; */
     text-align: left;
+    
 }
 
 .logo h1{
     font-family: 'Lobster Two', cursive;
     color: #180f4a;
     font-size: 34px;
+    
 }
 
 .menu{
@@ -198,4 +200,9 @@ footer{
     position: fixed;
     bottom: 5px;
     right: 5px;
+}
+
+hr{
+    width: 90%;
+    text-align: center;
 }
