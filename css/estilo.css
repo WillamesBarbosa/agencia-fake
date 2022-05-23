@@ -9,7 +9,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.navbar{
+.header{
     background-color: white;
     width: 100%;
     position: fixed;
@@ -67,7 +67,7 @@ body{
     background-color: #ff2978;
 }
 
-.header{
+.main{
     justify-content: center;
     align-items: center;
     display: flex;
