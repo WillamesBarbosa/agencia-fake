@@ -2,6 +2,9 @@
 
 
 @media  screen and (min-width: 1006px) {
+    body{
+        overflow-x: hidden;
+    }
 
     main{
         display: flex;
