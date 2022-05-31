@@ -1,22 +1,60 @@
 /* Area de responsividade do site. */
-/* Eu utilizei apenas uma media querie, pois o site já é dinâmico por si só e se adapta tranquilamente aos dispositivos móveis. */
+
+
+@media  screen and (min-width: 1006px) {
+
+    main{
+        display: flex;
+        padding-top: 100px;
+        display: flex;
+    }
+
+    .mobile-menu{
+        display: none;
+    }
+    
+}
+
 
 
 @media screen and (max-width: 1005px){
-    .menu{
-        display: none;
-    }
-    .navbar{
-        position: relative;
+    a{
+        text-decoration: none;
+        color: white;
     }
 
-    .logo{
-        margin: 0;
-        text-align: center;
+    body{
+        overflow-x: hidden;
     }
 
-    .main{
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background-color: #180f4a;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+    .nav-list li{
+        margin-left: 0;
+    }
+    
+    .mebile-menu{
+        display: block;
+    }
+
+
+    main{
         padding-top: 50px;
+        display: block;
+    }
+
+    .topo{
         display: block;
     }
 
@@ -28,15 +66,18 @@
     .headline p{
         text-align: center;
     }
-
     .img-headline{
-        max-width: 80%;
+        display: none;
+        width: 100%;
         margin: 5%;
         text-align: center;
         margin-top: 50px;
     }
 
+
     .card{
         width: 100%;
     }
+
+
 }
