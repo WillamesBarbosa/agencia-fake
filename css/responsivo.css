@@ -15,11 +15,17 @@
         text-align: center;
     }
 
-    .header{
+    .main{
         padding-top: 50px;
         display: block;
     }
 
+    .header{
+        display: flex;
+        position: static;
+    }
+
+   
     .headline{
         margin: 5%;
         text-align: center;
