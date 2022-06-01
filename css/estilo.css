@@ -1,63 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-
 *{
     box-sizing: border-box;
 }
 
 body{
     margin: 0;
-    padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
-a{
-    text-decoration: none;
-    color: #180f4a;
+.header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    /* background-color: cadetblue; */
+    justify-content: center;
+    align-items: center;
 }
 
 .logo{
-    font-size: 24px;
+    flex: 20%;
+    margin-left: 10%;
+    /* border: 1px solid red; */
+    text-align: left;
+    
+}
+
+.logo h1{
     font-family: 'Lobster Two', cursive;
     color: #180f4a;
-    padding-bottom: 0;
+    font-size: 34px;
+    
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 15vh;
+.menu{
+    flex: 70%;
+    /* border: 1px solid black; */
+    text-align: right;
+    padding: 20px;
 }
 
-.nav-list{
-    list-style: none;
-    display: flex;
+.menu a{
+    color: #180f4a;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 25px 16px;
 }
 
-.nav-list li{
-    margin-left: 20px;
-
-}
-.mobile-menu{
-    cursor: pointer;
+.menu a:hover{
+    color: #ff2978;
+    border-top: 4px solid #180f4a;
 }
 
-.mobile-menu div {
-    width: 32px;
-    height: 2px;
+#btnfc{
     background-color: #180f4a;
-    margin: 8px;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
 }
 
+#btnfc:hover{
+    border:none;
+    background-color: #ff2978;
+}
 
-main{
+.main{
     justify-content: center;
     align-items: center;
     display: flex;
     flex: row wrap;
     padding-top: 100px;
-    height: 85vh;
     /* background-color: gray; */
 }
 
@@ -188,9 +205,4 @@ footer{
 hr{
     width: 90%;
     text-align: center;
-}
-
-
-.nav-list.active {
-    transform: translateX(0);
 }
