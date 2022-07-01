@@ -206,3 +206,39 @@ hr{
     width: 90%;
     text-align: center;
 }
+
+.menuMob{
+    margin-right: 2rem;
+}
+
+.linha{
+    display: none;
+    width: 2rem;
+    background-color: #180f4a;
+    height: 0.15rem;
+    margin-top: 0.3rem;
+}
+
+
+.menuMob{
+    flex: 10%;
+}
+
+.linha{
+    display: block;
+}
+
+.menu.Clicado{
+    width: 100%;
+    margin-top: 100vh;
+    position: fixed;
+    flex: 100%;
+    display: block;
+    background-color: #180f4a;
+    height: 85vh;
+}
+.menu.Clicado a{
+    display: block;
+    color: white;
+}
+

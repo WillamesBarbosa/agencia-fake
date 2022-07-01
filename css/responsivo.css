@@ -3,14 +3,38 @@
 
 
 @media screen and (max-width: 1005px){
+
     .menu{
         display: none;
     }
-    .navbar{
-        position: relative;
+
+    .menu.Clicado{
+        display: block;
     }
 
+    .menu.Clicado a{
+        padding: 0;
+        margin: 2rem;
+        text-align: right;
+    }
+
+    #btnfc{
+        background-color: none;
+        padding: 0;
+        color: white;
+        border-radius: 0;
+        margin-right: 2rem;
+        margin-left: 0;
+    }
+    
+    #btnfc:hover{
+        border:none;
+        background-color: none;
+    }
+
+    
     .logo{
+        flex: 80%;
         margin: 0;
         text-align: center;
     }
