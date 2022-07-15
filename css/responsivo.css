@@ -1,8 +1,15 @@
 /* Area de responsividade do site. */
 /* Eu utilizei apenas uma media querie, pois o site já é dinâmico por si só e se adapta tranquilamente aos dispositivos móveis. */
-
+@media screen and (min-width: 1006px) {
+    
+    
+}
 
 @media screen and (max-width: 1005px){
+
+    .linha{
+        display: block;
+    }
 
     .menu{
         display: none;

@@ -4,6 +4,7 @@ function abrirMenu(){
 
     if(classeMenu == "menu"){
         menu.classList.add('Clicado');
+
     }else{
         menu.classList.remove('Clicado');
     }
