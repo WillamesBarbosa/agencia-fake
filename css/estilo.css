@@ -234,9 +234,10 @@ hr{
     margin-top: 100vh;
     position: fixed;
     flex: 100%;
-    display: block;
+    display: absolute;
     background-color: #180f4a;
     height: 85vh;
+    margin-left: 0;
 }
 .menu.Clicado a{
     display: block;

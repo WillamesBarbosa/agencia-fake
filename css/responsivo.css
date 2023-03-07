@@ -12,26 +12,30 @@
     }
 
     .menu{
-        display: none;
+        width: 100%;
+        margin-top: 100vh;
+        position: fixed;
+        flex: 100vh;
+        display: absolute;
+        margin-left: 1000px;
+        background-color: #180f4a;
+        height: 85vh;
+        transition: margin-left 0.5s ease-in-out;
     }
 
-    .menu.Clicado{
-        display: block;
-    }
-
-    .menu.Clicado a{
+    .menu a{
         padding: 0;
         margin: 2rem;
         text-align: right;
-    }
+        display: block;
+        color: white;
+    }s
 
     #btnfc{
         background-color: none;
         padding: 0;
         color: white;
-        border-radius: 0;
-        margin-right: 2rem;
-        margin-left: 0;
+        width: 50%;
     }
     
     #btnfc:hover{
