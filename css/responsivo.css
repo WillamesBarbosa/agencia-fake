@@ -24,18 +24,21 @@
     }
 
     .menu a{
+        opacity: 0;
         padding: 0;
-        margin: 2rem;
+        margin: 2rem 10%;
+        width: 80%;
+        border: 1px solid white;
         text-align: right;
         display: block;
         color: white;
+        transition: opacity 1s ease-in-out;
     }s
 
     #btnfc{
         background-color: none;
-        padding: 0;
-        color: white;
-        width: 50%;
+        margin-right: 0;
+        margin-left: 0;
     }
     
     #btnfc:hover{

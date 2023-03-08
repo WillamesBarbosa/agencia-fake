@@ -240,6 +240,7 @@ hr{
     margin-left: 0;
 }
 .menu.Clicado a{
+    opacity: 1;
     display: block;
     color: white;
 }
